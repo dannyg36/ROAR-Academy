@@ -1,8 +1,6 @@
 ## This is course material for Introduction to Modern Artificial Intelligence
 ## Example code: baselines_park.py
-## Author: Allen Y. Yang
-##
-## (c) Copyright 2023. Intelligent Racing Inc. Not permitted for commercial use
+
 
 #import os
 #
@@ -34,7 +32,7 @@ model = SAC('MultiInputPolicy', env, replay_buffer_class=HerReplayBuffer,
 import os
 path = os.path.dirname(os.path.abspath(__file__))
 model_file_name = path + '/parking_her_sac'
-LOAD_PRETRAINED = False
+LOAD_PRETRAINED = True
 if LOAD_PRETRAINED:
   # Load saved model
   model = SAC.load(model_file_name, env=env)
