@@ -1,5 +1,6 @@
 # ROAR-Academy
-(baselines_park.py was a self completed assignment, check it out!)
+* (baselines_park.py was a self completed assignment, check it out!)
+
 ROAR Academy was created by Dr. Allen Y. Yang. The material has been taught at the University of California, Berkeley, as part of Berkeley ROAR Racing curriculum to students who want to learn introduction-level skills about:
 
 * Python Programming;
